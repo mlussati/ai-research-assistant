@@ -1,11 +1,11 @@
 # ai-research-assistant
-# 🔬 AI Research Assistant
+# AI Research Assistant
 
 > Um agente de IA multi-ferramenta para exploração científica — análise profunda de papers locais, varredura de novos estudos e clarificação de conceitos técnicos.
 
 ---
 
-## 🗺️ Arquitetura do Sistema
+## Arquitetura do Sistema
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
@@ -44,7 +44,7 @@
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 | Capacidade | Ferramenta | Descrição |
 |---|---|---|
@@ -54,7 +54,7 @@
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 /ai-research-assistant
@@ -72,7 +72,7 @@
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ### 1. Pré-requisitos
 
@@ -116,28 +116,28 @@ python main.py
 
 ---
 
-## 🛠️ Ferramentas em Detalhe
+## Ferramentas em Detalhe
 
-### 📄 Local RAG Tool
+### Local RAG Tool
 - **Arquivo:** `tools/rag_tool.py`
 - Indexa PDFs locais com `VectorStoreIndex` do LlamaIndex
 - Usa `OllamaEmbedding` para embeddings locais (sem custo, sem dados na nuvem)
 - Responde perguntas contextuais sobre o conteúdo dos papers
 
-### 🔍 arXiv Search Tool
+### arXiv Search Tool
 - **Arquivo:** `tools/api_tools.py`
 - Usa a biblioteca `arxiv` (sem necessidade de API key)
 - Busca por palavras-chave ou nome de autores
 - Retorna títulos, resumos e links dos papers mais relevantes
 
-### 📖 Definition Tool
+### Definition Tool
 - **Arquivo:** `tools/api_tools.py`
 - Usa a biblioteca `wikipedia`
 - Fornece definições concisas de termos técnicos científicos
 
 ---
 
-## 🧠 System Prompt do Agente
+## System Prompt do Agente
 
 O comportamento do agente é guiado pelo seguinte prompt:
 
@@ -160,7 +160,7 @@ Pense passo a passo e explique seu raciocínio ao escolher cada ferramenta.
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] Estrutura do projeto e dependências
 - [x] Local RAG Tool
@@ -173,10 +173,10 @@ Pense passo a passo e explique seu raciocínio ao escolher cada ferramenta.
 
 ---
 
-## 📄 Licença
+## Licença
 
 MIT License — sinta-se livre para usar, modificar e distribuir.
 
 ---
 
-*Desenvolvido como parte do curso **Agentic RAG** — PalancaCode* 🚀
+*Desenvolvido como parte do curso **Agentic RAG** — PalancaCode*
